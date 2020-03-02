@@ -72,6 +72,18 @@ body {
   max-width: 100%;
 }
 
+.faixa-footer{
+  background-color: #ffb59d;
+  width: 100%;
+  height: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo{
+    top: 5%;
+  }
+}
+
 @media screen and (max-width: 900px) {
 
   .content{
@@ -82,7 +94,6 @@ body {
   .logo{
     display: flex;
     width: 100%;
-    padding-top: 15%;
   }
 
   .logo img{
