@@ -1,3 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/87ac07a4a6ff7e0603908b6a1354e998?family=Clarika+Geometric+Medium);
+
+@font-face {font-family: "Clarika Geometric"; 
+            src: url("//db.onlinewebfonts.com/t/87ac07a4a6ff7e0603908b6a1354e998.ttf") format("truetype")}
 
 html,
 body {
@@ -60,8 +64,20 @@ body {
 
 .botao-link img{
   position: absolute;
-  top: -50px;
-  left: -50px;
+  top: -40px;
+  left: -40px;
+}
+
+@media screen and (min-width: 900px) {
+
+  .links-pawts{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botao-link{
+    margin-bottom: 30px;
+  }
 }
 
 
