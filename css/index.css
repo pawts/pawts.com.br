@@ -1,7 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/87ac07a4a6ff7e0603908b6a1354e998?family=Clarika+Geometric+Medium);
 
 @font-face {font-family: "Clarika Geometric"; 
-            src: url("//db.onlinewebfonts.com/t/87ac07a4a6ff7e0603908b6a1354e998.ttf") format("truetype")}
+            src: url("../fonts/clarika_geometric.ttf") format("truetype")}
 
 html,
 body {
