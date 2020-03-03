@@ -136,6 +136,12 @@ body{
   }
 }
 
+@media screen and (max-width: 600px) {
+  .faixa-footer{
+    transform: none;
+    margin-top: -20px;
+  }
+}
 
 
 
