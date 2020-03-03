@@ -74,7 +74,7 @@ body{
 
 .img-dog{
   max-width: 100%;
-  margin-bottom: -5x;
+  margin-bottom: 15px
 }
 
 .faixa-footer{
@@ -83,11 +83,12 @@ body{
   position: absolute;
   width: 100vw;
   transform: translateX(calc((37em - 100vw)/2));
+  margin-top: -20px;
 }
 
 @media screen and (max-width: 1200px) {
   .logo{
-    top: 5%;
+    padding-top: 5%;
   }
 }
 
