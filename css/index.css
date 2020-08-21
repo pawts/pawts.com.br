@@ -80,15 +80,25 @@ body{
 .faixa-footer{
   background-color: #ffb59d;
   height: 20px;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   transform: translateX(calc((37em - 100vw)/2));
-  margin-top: -20px;
+  bottom: 0;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1366px) {
   .logo{
     padding-top: 5%;
+  }
+
+  .links-pawts{
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .faixa-footer{
+    position: absolute;
   }
 }
 
